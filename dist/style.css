@@ -1,0 +1,25 @@
+body {
+  margin: auto;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #542B49;
+  padding: 25px 50px;
+}
+
+.logo {
+  width: 30%;
+}
+
+.banner {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+}
