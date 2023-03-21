@@ -1,1 +1,3 @@
-console.log('i need a job')
+import initialize from "./initialize";
+
+initialize();

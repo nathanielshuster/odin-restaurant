@@ -1,4 +1,4 @@
-const initialize = () => {
+const menu = () => {
   const content = document.querySelector('.content')
   const header = document.createElement('header')
   const main = document.createElement('main')
@@ -39,4 +39,4 @@ const initialize = () => {
   content.appendChild(footer)
 };
 
-export default initialize;
+export default menu;
