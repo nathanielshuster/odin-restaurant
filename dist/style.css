@@ -1,3 +1,5 @@
+/* global */
+
 * {
   margin: 0;
   padding: 0;
@@ -54,7 +56,21 @@ button {
   width: 30%;
 }
 
-.banner {
+.footer {
+  background-color: #542B49;
+  padding: 25px 50px;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* home */
+
+.main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/banner.jpg');
   height: 500px;
   background-size: cover;
   background-position: center;
@@ -72,15 +88,4 @@ button {
   font-size: 24px;
   color: white;
   margin-top: 24px;
-}
-
-.footer {
-  background-color: #542B49;
-  padding: 25px 50px;
-}
-
-.copyright {
-  color: white;
-  text-align: center;
-  font-size: 16px;
 }

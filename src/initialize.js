@@ -11,9 +11,9 @@ const initialize = () => {
     </div>
 
     <nav>
-      <a href="/" class="nav-item">Home</a>
-      <a href="/" class="nav-item">Menu</a>
-      <a href="/" class="nav-item">Contact</a>
+      <a class="nav-item home">Home</a>
+      <a class="nav-item menu">Menu</a>
+      <a class="nav-item contact">Contact</a>
     </nav>
 
     <div class="contact">
@@ -22,7 +22,7 @@ const initialize = () => {
     </div>`
 
   main.innerHTML = `
-    <div class="banner" style="background-image: url(./images/banner.jpg);">
+    <div class="banner">
       <div>
         <h1 class="headline">Welcome to<br>Pizza N Vibes</h1>
         <p class="tagline">Experience pizza and good vibes<br>in every bite at Pizza N Vibes</p>
