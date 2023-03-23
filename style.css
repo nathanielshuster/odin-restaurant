@@ -35,7 +35,12 @@ nav {
   font-weight: bold;
 }
 
-.contact {
+a, button {
+  cursor: pointer;
+}
+
+
+.contact-buttons {
   display: flex;
   gap: 10px;
   justify-self: end;
@@ -50,6 +55,11 @@ button {
   font-family: 'Tilt Neon', Arial, sans-serif;
   font-weight: bold;
   border-radius: 5px;
+}
+
+button:hover {
+  background-color: white;
+  color: #542B49;
 }
 
 .logo {
@@ -88,4 +98,69 @@ button {
   font-size: 24px;
   color: white;
   margin-top: 24px;
+}
+
+/* menu */
+
+.menu {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  text-align: center;
+}
+
+.pizza-name {
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+
+.price {
+  margin-bottom: 25px;
+}
+
+/* contact */
+
+.contact {
+  padding: 50px;
+  display: grid;
+  justify-content: center;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  width: 600px;
+}
+
+.input-group {
+  display: grid;
+  font-size: 16px;
+}
+
+input {
+  font-size: 20px;
+  font-family: 'Tilt Neon', Arial, sans-serif;
+  padding: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.contact-form button {
+  border: 3px solid #542B49;
+  background: none;
+  color: #542B49;
+  padding: 10px 10px;
+  font-size: 18px;
+  font-family: 'Tilt Neon', Arial, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.contact-form button:hover {
+  background-color: #542B49;
+  color: white;
 }
