@@ -35,6 +35,10 @@ nav {
   font-weight: bold;
 }
 
+.nav-item:hover {
+  color: #b965a3;
+}
+
 a, button {
   cursor: pointer;
 }
@@ -50,7 +54,7 @@ button {
   border: 3px solid white;
   background: none;
   color: white;
-  padding: 10px 10px;
+  padding: 10px;
   font-size: 18px;
   font-family: 'Tilt Neon', Arial, sans-serif;
   font-weight: bold;
@@ -103,7 +107,7 @@ button:hover {
 /* menu */
 
 .menu {
-  padding: 50px;
+  padding: 100px 50px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
@@ -122,7 +126,7 @@ button:hover {
 /* contact */
 
 .contact {
-  padding: 50px;
+  padding: 100px 50px;
   display: grid;
   justify-content: center;
 }
@@ -140,9 +144,15 @@ button:hover {
 }
 
 input {
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Tilt Neon', Arial, sans-serif;
-  padding: 3px;
+  padding: 10px;
+  outline: 1px solid #542B49;
+  border-radius: 5px;
+}
+
+input:focus {
+  
 }
 
 label {
