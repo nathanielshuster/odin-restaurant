@@ -6,12 +6,12 @@ import contact from "./contact";
 initialize();
 
 const addListeners = (() => {
-  const homeLink = document.querySelector('.home')
+  const homeLink = document.querySelector('.home-link')
   homeLink.addEventListener('click', home)
 
-  const menuLink = document.querySelector('.menu')
+  const menuLink = document.querySelector('.menu-link')
   menuLink.addEventListener('click', menu)
 
-  const contactLink = document.querySelector('.contact')
+  const contactLink = document.querySelector('.contact-link')
   contactLink.addEventListener('click', contact)
 })();
